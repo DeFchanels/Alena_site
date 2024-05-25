@@ -1,0 +1,24 @@
+.about_text {
+    font-size: 20px;
+    width: 30%;
+    font-family: cursive;
+    display: inline-block;
+    color:rgb(140, 79, 0);
+    margin-left: 5%;
+}
+
+.avatar {
+    margin-left: 25%;
+    margin-bottom: 3%;
+    width: 35%;
+    display: inline-block;
+}
+
+.center_h {
+    font-size: 55px;
+    margin: 0%;
+    font-family: "Brush Script MT", cursive;
+    align-self: center;
+    color:rgb(54, 31, 0);
+    text-align: center;
+}

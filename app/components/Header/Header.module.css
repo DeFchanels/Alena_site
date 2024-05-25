@@ -1,0 +1,49 @@
+.side_menu {
+  width: 20%;
+  z-index: 11111;
+  height: 100vh;
+  background-color: antiquewhite;
+  border-top-right-radius: 5%;
+  border-bottom-right-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  align-self: flex-start;
+}
+
+.site_logo {
+  align-items: center;
+  font-family: "Brush Script MT", cursive;
+  font-size: 25px;
+  justify-content: center;
+  display: flex;
+  height: 15%;
+  align-self: center;
+  width: 90%;
+  border-bottom: solid rgb(255, 255, 255) 1.5px;
+}
+
+.list_element {
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list_element:hover {
+  background-color: #ffe6c4;
+  margin-left: 10%;
+  width: 95%;
+  border-radius: 10%;
+  transition: 0.5s;
+}
+.pages_list {
+  height: 85%;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.menu_link {
+  text-decoration: none;
+  color: black;
+}

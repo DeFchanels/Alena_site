@@ -1,0 +1,16 @@
+.swiper_slide {
+    object-fit: cover;
+    max-width: 85%;
+    align-self: center;
+    height: 100%;
+    display: flex;
+    margin: 0 auto;
+  }
+
+.page {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  width: 100%
+}
+

@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  background-color: rgb(255, 241, 229);
+  align-items: center;
+  flex-direction: column;
+  /* overflow: hidden; */
+}
+
+.swiper {
+  width: 50% !important;
+  height: 70% !important; 
+  display: flex;
+  margin-left: 33% !important
+}
+.swiper1 {
+  width: 50% !important;
+  height: 70% !important; 
+  display: flex;
+  margin-left: 33% !important
+}
+
+.swiper-button-prev {
+  color: rgb(190, 190, 190) !important;
+}
+
+.swiper-button-next.next_page {
+  border:none;
+  background: none;
+  color: rgb(135, 135, 135) !important;
+  transform: scale(2);
+}
+
+.swiper-button-next {
+  color: rgb(190, 190, 190) !important;
+}
+
+.characters {
+  display: flex;
+  padding-left: 15%;
+  height: 60%;
+  align-self: center;
+  justify-content: space-between;
+  width: 65%
+}
+
+.character_swiper {
+  width: 90% !important;
+  margin: 0
+}
+
+.collage {
+  width: 85%;
+  height: 80%;
+  margin-left: 23%;
+}
