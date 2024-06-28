@@ -3,35 +3,19 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import Styles from "./ArtsSlider.module.css";
 
-export const ArtsSlider = () => {
+export const ArtsSlider = (props) => {
+  const slides = props.slides;
+  const add_class = props.additional_class
+  const classs = "swiper" + ' ' + add_class;
   return (
     <div className={Styles.page}>
-      <div className="swiper">
+      <div className={classs}>
         <div className="swiper-wrapper">
-          <div className="swiper-slide">
-            <img
-              className={Styles.swiper_slide}
-              src="/romeo_and_juliette.png"
-            />
-          </div>
-          <div className="swiper-slide">
-            <img className={Styles.swiper_slide} src="/Wataru.png" />
-          </div>
-          <div className="swiper-slide">
-            <img className={Styles.swiper_slide} src="/Shaman.png" />
-          </div>
-          <div className="swiper-slide">
-            <img className={Styles.swiper_slide} src="/Cardswap.png" />
-          </div>
-          <div className="swiper-slide">
-            <img className={Styles.swiper_slide} src="/Xiao.png" />
-          </div>
-          <div className="swiper-slide">
-            <img className={Styles.swiper_slide} src="/Venti.png" />
-          </div>
-          <div className="swiper-slide">
-            <img className={Styles.swiper_slide} src="/Albedo.png" />
-          </div>
+          {slides.map((slide, id) => (
+            <div className="swiper-slide" key={id}>
+              <img className={Styles.swiper_slide} src={slide}  />
+            </div>
+          ))}
         </div>
         <div className="swiper-pagination"></div>
         <div className="swiper-button-prev"></div>

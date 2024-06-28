@@ -25,9 +25,11 @@
 
 .list_element {
   height: 15%;
+  font-weight: bold;
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 0.4s;
 }
 
 .list_element:hover {

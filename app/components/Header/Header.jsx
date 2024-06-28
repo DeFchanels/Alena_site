@@ -7,10 +7,10 @@ export const Header = () => {
         <h2>Alena Asrieva</h2>
       </div>
       <ul className={Styles.pages_list}>
-      <a href="/" className={Styles.menu_link}>
+      <a href="/storyboards" className={Styles.menu_link}>
           <li className={Styles.list_element}>Storyboards</li>
         </a>
-        <a href="/" className={Styles.menu_link}>
+        <a href="/animation" className={Styles.menu_link}>
           <li className={Styles.list_element}>Animation</li>
         </a>
         <a href="/illustration" className={Styles.menu_link}>
@@ -19,8 +19,8 @@ export const Header = () => {
         <a href="/about" className={Styles.menu_link}>
           <li className={Styles.list_element}>About</li>
         </a>
-        <a href="/" className={Styles.menu_link}>
-          <li className={Styles.list_element}>Merch</li>
+        <a href="/contacts" className={Styles.menu_link}>
+          <li className={Styles.list_element}>Contacts</li>
         </a>
       </ul>
     </header>

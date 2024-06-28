@@ -1,11 +1,8 @@
 "use client";
 import { ArtsSlider } from "../components/ArtsSlider/ArtsSlider";
-import { CharactersArts } from "../components/CharactersArts/CharactersArts";
 import { useEffect } from "react";
 import Swiper from "swiper";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
-import { BackgroundArts } from "../components/BackgroundArts/BackgroundArts";
-import { Comics, Comics2 } from "../components/Comics/Comics";
 
 export default function IllustrationsPage() {
   useEffect(() => {
@@ -29,10 +26,51 @@ export default function IllustrationsPage() {
       modules: [Autoplay, Navigation, Pagination],
     });
   }, []);
+  const art_slider_slides = [
+    "/romeo_and_juliette.png",
+    "/Wataru.png",
+    "/Shaman.png",
+    "/Cardswap.png",
+    "/Xiao.png",
+    "/Venti.png",
+    "/Albedo.png",
+  ];
+  const character_slides = [
+    "/hinao.png",
+    "/character_design.png",
+    "/character_sheet_edit.png",
+    "/character_sketches_g.png",
+    "/character_sketches.png",
+    "/antoha.png",
+    "/characters_final.png",
+  ];
+  const background_slides = [
+    "/bg_1.png",
+    "/bg7.png",
+    "/bg10.png",
+    "/entrance_faraway_14.png",
+    "/picasso_room_4.png",
+    "/painting_7.png",
+  ];
+  const comics_slides1 = [
+    "/real_friendship_1.png",
+    "/real_friendship_2.png",
+    "/real_friendship_3.png",
+    "/real_friendship_4.png",
+  ];
+  const comics_slides2 = [
+    "/gross_people_1.png",
+    "/gross_people_2.png",
+    "/gross_people_3.png",
+    "/gross_people_4.png",
+    "/gross_people_5.png",
+    "/gross_people_6.png",
+    "/gross_people_7.png",
+  ];
   return (
     <>
-      <img className='collage' src='/collage.jpg' />
-      <ArtsSlider />
+      <img className="collage" src="/collage.jpg" />
+      <ArtsSlider slides={art_slider_slides} />
       <h1 style={{ height: "20%", marginLeft: "15%", marginTop: "-5%" }}>
         Character design
       </h1>
@@ -41,13 +79,23 @@ export default function IllustrationsPage() {
         <img src="/char2.png" />
         <img src="/char3.png" />
       </div>
-      <CharactersArts />
-      <BackgroundArts />
-      <h1 style={{ height: "20%", marginLeft: "11%", marginBottom: "-5%" }}>
+      <ArtsSlider slides={character_slides} additional_class="characters_slides" />
+      <h1
+        сlass="ill_header"
+        style={{
+          marginLeft: "15%",
+          marginBottom: "-7%",
+          marginTop: "-3%",
+        }}
+      >
+        Background Art
+      </h1>
+      <ArtsSlider slides={background_slides} additional_class="backgrounds" />
+      <h1 style={{ height: "20%", marginLeft: "11%", marginBottom: "5%" }}>
         Comics
       </h1>
-      <Comics />
-      <Comics2 />
+      <ArtsSlider slides={comics_slides1} additional_class="comics2" />
+      <ArtsSlider slides={comics_slides2} additional_class="comics2" />
     </>
   );
 }

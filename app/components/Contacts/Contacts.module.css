@@ -1,0 +1,52 @@
+.contact_header {
+    font-size: 55px;
+    margin-top: 10%;
+    margin-left: 95%;
+    color:rgb(70, 39, 0);
+    font-family: cursive;
+    width: 100%
+}
+
+.email {
+    margin-left: 15%;
+}
+
+.buttons {
+    width: 60%;
+    margin-top: 3%;
+    height: 20%;
+    margin-left: 15%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.button_link {
+    width: 25%;
+    height: 60%
+}
+
+.button {
+    width: 100%;
+    color: antiquewhite;
+    font-size: 16px;
+    height: 80%;
+    background-color: rgb(31, 17, 0);
+    border: solid 1px #000000;
+    border-radius:30px;
+}
+
+.button_link:hover {
+    margin-top: -0.5%;
+    
+    transition: 0.5s;
+    .button {
+        box-shadow:1px 1px 5px 1px #473333; /* add shadow */
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .contact_header {
+      margin-left: 80%
+    }
+  }
