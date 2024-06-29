@@ -45,7 +45,7 @@
     }
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 950px) and (orientation: portrait) {
     .contact_header {
         margin-left: auto;
         text-align: center;
