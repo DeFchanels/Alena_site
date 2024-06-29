@@ -75,17 +75,17 @@
   .contact_header {
     margin-left: auto;
     text-align: center;
-    margin-top: 25%;
+    margin-top: 15%;
   }
   .email {
     margin-left: auto;
     text-align: center;
-    margin-right: 5%;
+    margin-right: 10%;
   }
   .buttons {
     margin-left: auto;
     text-align: center;
-    margin-right: 10%;
+    margin-right: 13%;
     flex-direction: column;
   }
   .button_link {
