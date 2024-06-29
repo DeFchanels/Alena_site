@@ -61,7 +61,7 @@
     width: 20%;
     font-weight: bold;
     display: inline-block;
-    justify-content: auto;
+    font-size: 10px;
     text-align: center;
     align-items: center;
     transition: 0.4s;
