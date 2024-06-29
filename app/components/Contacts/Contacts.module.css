@@ -85,13 +85,13 @@
   .buttons {
     margin-left: auto;
     text-align: center;
-    margin-right: 13%;
+    margin-right: 6%;
     flex-direction: column;
   }
   .button_link {
     width: 60%;
     height: 100%;
-      margin-bottom: 5%;
+      margin-bottom: 15%;
   }
   .button {
     height: 300%;
