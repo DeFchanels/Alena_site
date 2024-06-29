@@ -80,7 +80,7 @@
   .email {
     margin-left: auto;
     text-align: center;
-    margin-right: 40%;
+    margin-right: 30%;
   }
   .buttons {
     margin-left: auto;
@@ -90,9 +90,9 @@
   }
   .button_link {
     width: 80%;
-    height: 70%;
+    height: 80%;
   }
   .button {
-    height: 90%;
+    height: 100%;
   }
 }
