@@ -26,14 +26,25 @@
 
 @media screen and (max-width: 950px) {
     .avatar {
-      margin-bottom: 90%
+      margin-left: 40%;
+      width: 65%;
+      height: 20%;
+    }
+    .center_h {
+        font-size: 55px;
+        margin: 0%;
+        margin-left: 30%;
+        font-family: "Brush Script MT", cursive;
+        align-self: center;
+        color:rgb(54, 31, 0);
+        text-align: center;
     }
     .about_text {
         font-size: 20px;
-        width: 30%;
+        width: 65%;
         font-family:'Times New Roman';
         display: inline-block;
         color:rgb(140, 79, 0);
-        margin-left: 5%;
+        margin-left: 40%;
     }
   }
