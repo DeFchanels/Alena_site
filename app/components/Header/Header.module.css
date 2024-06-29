@@ -76,7 +76,8 @@
     margin-left: auto;
     width: 20%;
     border-radius: 0;
-    opacity: 0;
+    margin: 0;
+    background-color: antiquewhite
   }
   .site_logo {
     display: none;
