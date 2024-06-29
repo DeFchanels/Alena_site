@@ -85,7 +85,7 @@
   .buttons {
     margin-left: auto;
     text-align: center;
-    margin-right: 6%;
+    margin-right: 10%;
     flex-direction: column;
   }
   .button_link {
