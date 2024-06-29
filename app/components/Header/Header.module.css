@@ -1,5 +1,5 @@
 .side_menu {
-  width: 30%;
+  width: 20%;
   z-index: 11111;
   height: 100vh;
   background-color: antiquewhite;
@@ -48,4 +48,19 @@
 .menu_link {
   text-decoration: none;
   color: black;
+}
+
+@media screen and (max-width: 950px) {
+  .side_menu {
+    width: 100%;
+    z-index: 11111;
+    height: 10%;
+    background-color: antiquewhite;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    align-self: flex-start;
+  }
 }
