@@ -112,7 +112,8 @@ body {
 
 @media screen and (max-width: 950px) and (orientation: portrait) {
   .characters {
-    height: 20%
+    height: 20%;
+    margin-right: 15%
   }
   body {
     width: 100%;
