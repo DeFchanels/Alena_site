@@ -56,4 +56,17 @@
         text-align: center;
         margin-right: 10%;
     }
+    .buttons {
+        margin-left: auto;
+        text-align: center;
+        margin-right: 11%;
+        flex-direction: column;
+    }
+    .button_link {
+        width: 80%;
+        height: 70%
+    }
+    .button {
+        height: 90%;
+    }
   }
