@@ -2,7 +2,7 @@ import Styles from "./Contacts.module.css";
 
 export const Contacts = () => {
   return (
-    <>
+    <div className={Styles.contact}>
         <h1 className={Styles.contact_header}>Contact me</h1>
         <h2 className={Styles.email}>verysmgiant@gmail.com</h2>
         <div className={Styles.buttons}>
@@ -16,6 +16,6 @@ export const Contacts = () => {
                 <button className={Styles.button}>Vimeo</button>
             </a>
         </div>
-    </>
+    </div>
   );
 };
