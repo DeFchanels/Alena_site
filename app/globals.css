@@ -110,11 +110,14 @@ body {
   font-family: cursive;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 950px) and (orientation: portrait) {
   .characters {
     height: 20%
   }
   body {
     width: 100%;
+  }
+  .collage {
+    margin-top: 10%
   }
 }
