@@ -113,12 +113,13 @@ body {
 @media screen and (max-width: 950px) and (orientation: portrait) {
   .characters {
     height: 20%;
-    margin-right: 40%
+    margin-right: 35%
   }
   body {
     width: 100%;
   }
   .collage {
-    margin-top: 30%
+    margin-top: 30%;
+    margin-right: 10%;
   }
 }
