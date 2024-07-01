@@ -130,8 +130,9 @@ body {
 
 @media screen and (max-width: 950px) and (orientation: landscape) {
   .characters {
-    height: 20%;
-    margin-right: 35%
+    width: 100%;
+    height: 100%;
+    padding: 0
   }
   body {
     width: 100%;
