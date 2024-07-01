@@ -139,6 +139,7 @@ body {
   .collage {
     margin-top: 13%;
     margin-left: 0%;
+    height: 100%;
     width: 100%;
   }
   .swiper {
