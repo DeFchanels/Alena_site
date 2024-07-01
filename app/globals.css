@@ -119,6 +119,24 @@ body {
     width: 100%;
   }
   .collage {
+    margin-top: 20%;
+    margin-left: 0%;
+    width: 100%;
+  }
+  .swiper {
+    margin-left: auto !important;
+  }
+}
+
+@media screen and (max-width: 950px) and (orientation: landscape) {
+  .characters {
+    height: 20%;
+    margin-right: 35%
+  }
+  body {
+    width: 100%;
+  }
+  .collage {
     margin-top: 25%;
     margin-left: 0%;
     width: 100%;
