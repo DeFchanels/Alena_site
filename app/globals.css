@@ -170,6 +170,9 @@ body {
   .storyboard_description_right {
     margin-left: 40%;
   }
+  .storyboards_video {
+  margin-left: 0%;
+  }
   .ill_header1 {
     height: 20%;
     margin-left: 0%;
@@ -228,6 +231,9 @@ body {
   .storyboard_description_right {
     margin-left: 40%;
   }
+  .storyboards_video {
+    margin-left: 0%;
+    }
   .ill_header1 {
     height: 20%;
     margin-left: 0%;
