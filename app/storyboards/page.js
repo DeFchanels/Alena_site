@@ -48,10 +48,10 @@ export default function StoryboardsPage() {
   ];
   return (
     <>
-      <h1 style={{ marginLeft: "15%", fontSize: '45px'}}>
+      <h1 id='storyboards_header1'>
         Storyboards
       </h1>
-      <h2 style={{ marginLeft: "15%", marginBottom: "-5%" }}>
+      <h2 id='storyboards_header2'>
         Smoke without fire
       </h2>
       <ArtsSlider slides={storyboards_slider_slides}/>
@@ -61,11 +61,11 @@ export default function StoryboardsPage() {
         </p>
         <p>Storyboards for a group short film</p>
       </div>
-      <div>
+      <div className='storyboards_video'>
         <div className='left_description'>
           <p style={{fontSize: '20px'}}>Animatic for "Smoke Without Fire"</p>
         </div>
-        <Video path="video/Smoke animatic.mp4" clas="video" poster='posters/10_poster.png'/>
+        <Video path="video/Smoke animatic.mp4" className='storyboards_video' clas="video" poster='posters/10_poster.png'/>
       </div>
       <h2 style={{ marginLeft: "15%", marginBottom: "-5%" }}>
         Homo Comfortus
@@ -77,7 +77,7 @@ export default function StoryboardsPage() {
         </p>
         <p>Storyboards for a personal short film</p>
       </div>
-      <div style={{width: '100%', marginLeft: '42%'}}>
+      <div className='storyboards_video'>
         <Video path="video/Homo animatic.mp4" clas="video" poster='posters/11_poster.png'/>
         <div className='right_description'>
           <p style={{fontSize: '20px'}}>Animatic for "Homo Comfortus"</p>
