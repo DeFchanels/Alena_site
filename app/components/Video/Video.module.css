@@ -19,7 +19,7 @@
 }
 @media screen and (max-width: 950px) and (orientation: portrait) {
     .video {
-        width: 90%;
+        width: 100%;
     }
     .second_video {
         width: 90%;
