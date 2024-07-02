@@ -139,14 +139,12 @@ body {
   width: 100%;
   margin-left: 42%
 }
-.storyboards_video {
+/* .storyboards_video {
   width: 100%;
   margin-left: 42%
-}
-.storyboards_video2 {
-  width: 100%;
-  margin-left: 0%
-}
+} */
+
+
 @media screen and (max-width: 950px) and (orientation: portrait) {
   .left-video {
     margin-left: 40%
@@ -173,9 +171,6 @@ body {
     margin-left: 40%;
   }
   .storyboards_video {
-    margin-left: 8%
-  }
-  .storyboards_video2 {
     margin-left: 8%
   }
   .ill_header1 {
@@ -237,9 +232,6 @@ body {
     margin-left: 40%;
   }
   .storyboards_video {
-    margin-left: 40%
-  }
-  .storyboards_video2 {
     margin-left: 40%
   }
   .ill_header1 {
