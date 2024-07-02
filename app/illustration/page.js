@@ -71,7 +71,7 @@ export default function IllustrationsPage() {
     <>
       <img className="collage" src="/collage.jpg" />
       <ArtsSlider slides={art_slider_slides} />
-      <h1 style={{ height: "20%", marginLeft: "15%", marginTop: "-5%" }}>
+      <h1 className="ill_header1">
         Character design
       </h1>
       <div className="characters">
@@ -81,17 +81,12 @@ export default function IllustrationsPage() {
       </div>
       <ArtsSlider slides={character_slides} additional_class="characters_slides" />
       <h1
-        сlass="ill_header"
-        style={{
-          marginLeft: "15%",
-          marginBottom: "-7%",
-          marginTop: "-3%",
-        }}
+        className="ill_header2"
       >
         Background Art
       </h1>
       <ArtsSlider slides={background_slides} additional_class="backgrounds" />
-      <h1 style={{ height: "20%", marginLeft: "11%", marginBottom: "5%" }}>
+      <h1 className="ill_header3">
         Comics
       </h1>
       <ArtsSlider slides={comics_slides1} additional_class="comics2" />

@@ -50,9 +50,24 @@ body {
 .collage {
   width: 85%;
   height: 85%;
-  margin-left: 23%;
+  margin-left: 23%
 }
 
+.ill_header1 {
+  height: 20%;
+  margin-left: 15%;
+  margin-top: -5%
+}
+.ill_header2 {
+  margin-left: 15%;
+  margin-bottom: -7%;
+  margin-top: -3%
+}
+.ill_header3 {
+  height: 20%;
+  margin-left: 11%;
+  margin-bottom: 5%
+}
 .description_text {
   font-size: 30px;
   
@@ -110,7 +125,23 @@ body {
   font-family: cursive;
 }
 
+
 @media screen and (max-width: 950px) and (orientation: portrait) {
+  .ill_header1 {
+    height: 20%;
+    margin-left: 0%;
+    margin-top: -5%
+  }
+  .ill_header2 {
+    margin-left: 0%;
+    margin-bottom: -7%;
+    margin-top: -3%
+  }
+  .ill_header3 {
+    height: 20%;
+    margin-left: 0%;
+    margin-bottom: 5%
+  }
   .characters {
     height: 20%;
     margin-right: 35%
@@ -129,6 +160,21 @@ body {
 }
 
 @media screen and (max-width: 950px) and (orientation: landscape) {
+  .ill_header1 {
+    height: 20%;
+    margin-left: 0%;
+    margin-top: -5%
+  }
+  .ill_header2 {
+    margin-left: 0%;
+    margin-bottom: -7%;
+    margin-top: -3%
+  }
+  .ill_header3 {
+    height: 20%;
+    margin-left: 0%;
+    margin-bottom: 5%
+  }
   .characters {
     width: 100%;
     height: 100%;
