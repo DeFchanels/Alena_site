@@ -5,9 +5,9 @@ import { Video } from "../components/Video/Video";
 export default function AnimationPage() {
   return (
     <>
-      <h1 className='animation_header'>Animation showreel</h1>
+      <h1 id='animation_header'>Animation showreel</h1>
       <Video path="video/Showreel.mp4" clas="central-video" poster='posters/1_poster.png'/>
-      <h1 style={{ marginLeft: "20%", marginBottom: "3%" }}>Short Films</h1>
+      <h1 id='animation_header2'>Short Films</h1>
       <div className='right_animation'>
         <Video path="video/Smoke without fire.mp4" clas="video" poster='posters/2_poster.png'/>
         <div className='right_description'>

@@ -120,12 +120,16 @@ body {
   margin-left: 40%;
   width: 100%
 }
-.animation_header {
+#animation_header {
   margin-left: 20%;
 }
 .right_animation {
   width: 100%;
   margin-left: 42%
+}
+#animation_header2 {
+  margin-left: 20%;
+  margin-bottom: 3%
 }
 @media screen and (max-width: 950px) and (orientation: portrait) {
   .left_animation {
@@ -136,8 +140,12 @@ body {
     width: 90%;
     margin-left: 10%;
   }
-  .animation_header {
+  #animation_header {
     margin-top: 35%;
+    margin-left: 15%
+  }
+  #animation_header2 {
+    margin-left: 15%
   }
   #storyboards_header1 {
     margin-top: 30%;
