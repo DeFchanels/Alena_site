@@ -8,7 +8,7 @@ export default function AnimationPage() {
       <h1 className='animation_header'>Animation showreel</h1>
       <Video path="video/Showreel.mp4" clas="central-video" poster='posters/1_poster.png'/>
       <h1 style={{ marginLeft: "20%", marginBottom: "3%" }}>Short Films</h1>
-      <div style={{width: '100%', marginLeft: '42%'}}>
+      <div className='left_animation'>
         <Video path="video/Smoke without fire.mp4" clas="video" poster='posters/2_poster.png'/>
         <div className='right_description'>
           <h1 className='description_head'>Smoke Without Fire</h1>
@@ -23,7 +23,7 @@ export default function AnimationPage() {
         </div>
         <Video path="video/Hide and seek.mp4" clas="video" poster='posters/3_poster.png'/>
       </div>
-      <div style={{width: '100%', marginLeft: '42%'}}>
+      <div className='left_animation'>
         <Video path="video/Homo comfortus.mp4" clas="video" poster='posters/4_poster.png'/>
         <div className='right_description'>
           <h1 className='description_head'>Homo Comfortus</h1>
