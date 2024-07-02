@@ -188,11 +188,11 @@ body {
 @media screen and (max-width: 950px) and (orientation: landscape) {
   #storyboards_header1 {
     margin-top: 17%;
-    margin-left: 7%;
+    margin-left: 0%;
     font-size: 45px
   }
   #storyboards_header2 {
-    margin-left: 7%;
+    margin-left: 0%;
     margin-bottom: -5%
   }
   .left_description {
