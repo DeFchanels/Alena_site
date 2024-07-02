@@ -5,7 +5,7 @@ import { Video } from "../components/Video/Video";
 export default function AnimationPage() {
   return (
     <>
-      <h1 style={{ marginLeft: "20%" }}>Animation showreel</h1>
+      <h1 className='animation_header'>Animation showreel</h1>
       <Video path="video/Showreel.mp4" clas="central-video" poster='posters/1_poster.png'/>
       <h1 style={{ marginLeft: "20%", marginBottom: "3%" }}>Short Films</h1>
       <div style={{width: '100%', marginLeft: '42%'}}>
