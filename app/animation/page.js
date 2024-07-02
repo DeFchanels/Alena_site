@@ -8,7 +8,7 @@ export default function AnimationPage() {
       <h1 className='animation_header'>Animation showreel</h1>
       <Video path="video/Showreel.mp4" clas="central-video" poster='posters/1_poster.png'/>
       <h1 style={{ marginLeft: "20%", marginBottom: "3%" }}>Short Films</h1>
-      <div className='left_animation'>
+      <div className='right_animation'>
         <Video path="video/Smoke without fire.mp4" clas="video" poster='posters/2_poster.png'/>
         <div className='right_description'>
           <h1 className='description_head'>Smoke Without Fire</h1>
@@ -16,21 +16,21 @@ export default function AnimationPage() {
           <p className='description_text'>Created in a group with two other students)</p>
         </div>
       </div>
-      <div>
+      <div className='left_animation'>
         <div className='left_description'>
           <h1 className='description_head'>Hide and seek</h1>
           <p className='description_text'>Animated clip for элли на маковом поле to the song "Прятки" (Hide-and-Seek)</p>
         </div>
         <Video path="video/Hide and seek.mp4" clas="video" poster='posters/3_poster.png'/>
       </div>
-      <div className='left_animation'>
+      <div className='right_animation'>
         <Video path="video/Homo comfortus.mp4" clas="video" poster='posters/4_poster.png'/>
         <div className='right_description'>
           <h1 className='description_head'>Homo Comfortus</h1>
           <p className='description_text'>Short film about the struggles of trying to appease everyone around you</p>
         </div>
       </div>
-      <div>
+      <div className='left_animation'>
         <div className='left_description'>
           <h1 className='description_head'>Murena Nastya</h1>
           <p className='description_text'>Two short stories about the lovable murena-mascot of the shopping mall Aviapark in collaboration with her Telegram channel.</p>

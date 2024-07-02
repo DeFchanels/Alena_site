@@ -123,12 +123,15 @@ body {
 .animation_header {
   margin-left: 20%;
 }
-.left_animation {
+.right_animation {
   width: 100%;
   margin-left: 42%
 }
 @media screen and (max-width: 950px) and (orientation: portrait) {
   .left_animation {
+    width: 90%
+  }
+  .right_animation {
     width: 90%;
     margin-left: 10%;
   }
