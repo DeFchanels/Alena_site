@@ -17,22 +17,18 @@ body {
   display: flex;
   margin-left: 33% !important;
 }
-
 .swiper-button-prev {
   color: rgb(190, 190, 190) !important;
 }
-
 .swiper-button-next.next_page {
   border: none;
   background: none;
   color: rgb(135, 135, 135) !important;
   transform: scale(2);
 }
-
 .swiper-button-next {
   color: rgb(190, 190, 190) !important;
 }
-
 .characters {
   display: flex;
   padding-left: 15%;
@@ -41,18 +37,15 @@ body {
   justify-content: space-between;
   width: 65%;
 }
-
 .character_swiper {
   width: 90% !important;
   margin: 0;
 }
-
 .collage {
   width: 85%;
   height: 85%;
   margin-left: 23%
 }
-
 .ill_header1 {
   height: 20%;
   margin-left: 15%;
@@ -72,82 +65,57 @@ body {
   font-size: 30px;
   
 }
-
 .right_description {
   float: right;
   margin-right: 25%;
   width: 23%;
 }
-
 .left_description {
   float: left;
   margin-left: 23%;
   margin-right: 3%;
   width: 23%;
 }
-
 .backgrounds {
   width: 65% !important;
   margin-top: 10%;
   margin-right: 15% !important;
   margin-left: 28% !important
 }
-
 .comics1 {
   width: 45% !important;
 }
-
 .comics2 {
   width: 45% !important;
   height: 80% !important;
   margin-top: -10%
 }
-
 .characters_slides {
   margin-left: 32% !important
 }
-
 .storyboard_description {
   margin-top: -7%;
   margin-bottom: 3%;
   margin-left: -10%;
   opacity: 0.8
 }
-
 .storyboard_description_right {
   margin-top: -7%;
   margin-bottom: 3%;
   margin-left: 50%;
   opacity: 0.8
 }
-
 .description_head {
   font-family: cursive;
 }
-
 #storyboards_header1 {
   margin-left: 15%;
   font-size: 45px
 }
-
 #storyboards_header2 {
   margin-left: 15%;
   margin-bottom: -5%
 }
-
-<<<<<<< HEAD
-.left-video {
-  width: 100%;
-  margin-left: 42%
-}
-.storyboards_video {
-  margin-left: 42%;
-  width: 100%
-}
-
-
-=======
->>>>>>> parent of e0e441a (adaptation)
 @media screen and (max-width: 950px) and (orientation: portrait) {
   #storyboards_header1 {
     margin-top: 30%;
@@ -168,14 +136,10 @@ body {
     margin-left: -30%
   }
   .storyboard_description_right {
-    margin-left: 40%;
+    margin-left: 45%;
   }
   .storyboards_video {
-<<<<<<< HEAD
-  margin-left: 0%;
-=======
     margin-left: 8%
->>>>>>> parent of e0e441a (adaptation)
   }
   .ill_header1 {
     height: 20%;
@@ -216,6 +180,7 @@ body {
 @media screen and (max-width: 950px) and (orientation: landscape) {
   #storyboards_header1 {
     margin-top: 30%;
+    margin-top: 17%;
     margin-left: 0%;
     font-size: 45px
   }
@@ -233,16 +198,11 @@ body {
     margin-left: -30%
   }
   .storyboard_description_right {
-    margin-left: 40%;
+    margin-left: 45%;
   }
   .storyboards_video {
-<<<<<<< HEAD
-    margin-left: 0%;
-    }
-=======
     margin-left: 25%
   }
->>>>>>> parent of e0e441a (adaptation)
   .ill_header1 {
     height: 20%;
     margin-left: 0%;

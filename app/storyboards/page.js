@@ -4,7 +4,6 @@ import { useEffect } from "react";
 import Swiper from "swiper";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { Video } from "../components/Video/Video";
-
 export default function StoryboardsPage() {
   useEffect(() => {
     const swiper = new Swiper(".swiper", {
@@ -65,6 +64,7 @@ export default function StoryboardsPage() {
         <div className='left_description'>
           <p style={{fontSize: '20px'}}>Animatic for "Smoke Without Fire"</p>
         </div>
+        <Video path="video/Smoke animatic.mp4" className='storyboards_video' clas="video" poster='posters/10_poster.png'/>
         <Video path="video/Smoke animatic.mp4" className='storyboards_video' clas="video1" poster='posters/10_poster.png'/>
       </div>
       <h2 style={{ marginLeft: "15%", marginBottom: "-5%" }}>
@@ -78,6 +78,7 @@ export default function StoryboardsPage() {
         <p>Storyboards for a personal short film</p>
       </div>
       <div className='storyboards_video'>
+        <Video path="video/Homo animatic.mp4" clas="video" poster='posters/11_poster.png'/>
         <Video path="video/Homo animatic.mp4" clas="video1" poster='posters/11_poster.png'/>
         <div className='right_description'>
           <p style={{fontSize: '20px'}}>Animatic for "Homo Comfortus"</p>
