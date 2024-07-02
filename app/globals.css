@@ -139,10 +139,9 @@ body {
   width: 100%;
   margin-left: 42%
 }
-/* .storyboards_video {
-  width: 100%;
+.storyboards_video {
   margin-left: 42%
-} */
+}
 
 
 @media screen and (max-width: 950px) and (orientation: portrait) {
