@@ -116,8 +116,8 @@ body {
   margin-left: 15%;
   margin-bottom: -5%
 }
-.storyboards_video {
-  margin-left: 45%
+#homo {
+  margin-left: 35%
 }
 @media screen and (max-width: 950px) and (orientation: portrait) {
   #storyboards_header1 {

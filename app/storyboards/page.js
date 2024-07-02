@@ -76,7 +76,7 @@ export default function StoryboardsPage() {
         </p>
         <p>Storyboards for a personal short film</p>
       </div>
-      <div className='storyboards_video'>
+      <div className='storyboards_video' id='homo'>
         <Video path="video/Homo animatic.mp4" clas="video1" poster='posters/11_poster.png'/>
         <div className='right_description'>
           <p style={{fontSize: '20px'}}>Animatic for "Homo Comfortus"</p>
