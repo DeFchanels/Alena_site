@@ -61,7 +61,7 @@ export default function StoryboardsPage() {
         </p>
         <p>Storyboards for a group short film</p>
       </div>
-      <div className='storyboards_video2'>
+      <div className='storyboards_video'>
         <div className='left_description'>
           <p style={{fontSize: '20px'}}>Animatic for "Smoke Without Fire"</p>
         </div>

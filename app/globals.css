@@ -135,6 +135,7 @@ body {
   margin-bottom: -5%
 }
 
+<<<<<<< HEAD
 .left-video {
   width: 100%;
   margin-left: 42%
@@ -145,10 +146,9 @@ body {
 }
 
 
+=======
+>>>>>>> parent of e0e441a (adaptation)
 @media screen and (max-width: 950px) and (orientation: portrait) {
-  .left-video {
-    margin-left: 40%
-  }
   #storyboards_header1 {
     margin-top: 30%;
     margin-left: 0%;
@@ -171,7 +171,11 @@ body {
     margin-left: 40%;
   }
   .storyboards_video {
+<<<<<<< HEAD
   margin-left: 0%;
+=======
+    margin-left: 8%
+>>>>>>> parent of e0e441a (adaptation)
   }
   .ill_header1 {
     height: 20%;
@@ -211,7 +215,7 @@ body {
 
 @media screen and (max-width: 950px) and (orientation: landscape) {
   #storyboards_header1 {
-    margin-top: 17%;
+    margin-top: 30%;
     margin-left: 0%;
     font-size: 45px
   }
@@ -232,8 +236,13 @@ body {
     margin-left: 40%;
   }
   .storyboards_video {
+<<<<<<< HEAD
     margin-left: 0%;
     }
+=======
+    margin-left: 25%
+  }
+>>>>>>> parent of e0e441a (adaptation)
   .ill_header1 {
     height: 20%;
     margin-left: 0%;
