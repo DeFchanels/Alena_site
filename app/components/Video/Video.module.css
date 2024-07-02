@@ -18,9 +18,20 @@
     margin-bottom: 3%;
 }
 @media screen and (max-width: 950px) and (orientation: portrait) {
+    .video {
+        width: 90%;
+    }
+    .second_video {
+        width: 90%;
+        margin-left: 0%
+    }
     .video1 {
         width: 90%;
         margin-bottom: 3%;
+    }
+    .central-video {
+        width: 90%;
+        margin-left: 5%;
     }
 }
 
