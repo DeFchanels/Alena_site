@@ -22,7 +22,7 @@
         width: 100%;
     }
     .second_video {
-        width: 90%;
+        width: 100%;
         margin-left: 0%
     }
     .video1 {
@@ -31,7 +31,7 @@
     }
     .central-video {
         width: 90%;
-        margin-left: 5%;
+        margin-left: 0%;
     }
 }
 
