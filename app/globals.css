@@ -220,13 +220,13 @@ body {
 @media screen and (max-width: 950px) and (orientation: landscape) {
   #animation_header {
     margin-top: 20%;
-    margin-left: 0%;
+    margin-left: 4%;
   }
   #animation_header2 {
-    margin-left: 10%;
+    margin-left: 7%;
 }
   #animation_header3 {
-    margin-left: 10%;
+    margin-left: 5%;
   }
   #decription_save1,
   #decription_save2,
