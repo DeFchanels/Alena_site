@@ -235,7 +235,8 @@ body {
     display: block;
   }
   .right_animation {
-    margin-left: 10%;
+    margin-left: 5%;
+    width: 90%
   }
   .description_text {
     font-size: 20px;
