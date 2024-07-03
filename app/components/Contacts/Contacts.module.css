@@ -53,6 +53,9 @@
   }
   .email {
     text-align: center;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
   }
   .buttons {
     margin-left: auto;
@@ -89,7 +92,7 @@
   .button_link {
     width: 60%;
     height: 100%;
-      margin-bottom: 15%;
+    margin-bottom: 15%;
   }
   .button {
     height: 300%;
