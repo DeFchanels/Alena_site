@@ -39,8 +39,8 @@ export default function AnimationPage() {
         <Video path="video/Murena Nastya 2.mp4" clas="second_video" poster='posters/6_poster.png'/>
       </div>
       <h1 id='animation_header3'>Other works</h1>
-      <Video path="video/Other 1.mp4" clas="central-video" poster='posters/7_poster.png'/>
-      <Video path="video/Other 2.mp4" clas="central-video" poster='posters/8_poster.png'/>
+      <Video path="video/Other 1.mp4" clas="central-video" poster='posters/8_poster.png'/>
+      <Video path="video/Other 2.mp4" clas="central-video" poster='posters/7_poster.png'/>
       <Video path="video/Other 3.mp4" clas="central-video" poster='posters/9_poster.png'/>
       
     </>
